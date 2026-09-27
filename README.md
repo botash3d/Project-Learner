@@ -3,7 +3,7 @@
 An interactive, graph-based curriculum roadmap. Pick a curriculum, see its topics laid out as a dependency graph, mark what you've covered, and track your coverage as you go.
 
 **Live app:** https://project-learner-jade.vercel.app/
-**Live API docs:** https://project-learner-gymi.onrender.com
+**Live API docs:** https://project-learner-gymi.onrender.com/docs
 
 > Note: both the frontend and backend run on free-tier hosting, so the first load after a period of inactivity can take 10–30 seconds while the services wake up. Subsequent loads are fast.
 
