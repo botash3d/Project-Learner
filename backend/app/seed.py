@@ -6,7 +6,7 @@ from app.models.progress import User
 def seed():
     db =SessionLocal()
 
-    default_user = db.quert(User).filter(User.id==1).first()
+    default_user = db.query(User).filter(User.id==1).first()
     if not default_user:
         default_user = User(id=1)
         db.add(default_user)
